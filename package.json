@@ -1,0 +1,30 @@
+{
+  "name": "next-spa-intl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node .",
+    "build": "next build",
+    "preexport": "npm run build",
+    "export": "next export",
+    "prestart": "npm run export",
+    "start": "serve out"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "express": "^4.16.3",
+    "next": "^6.1.0",
+    "next-compose": "0.0.2",
+    "node-sass": "^4.9.0",
+    "postcss-inline-rtl": "^0.9.8",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-intl-universal": "^1.11.2",
+    "sass-resources-loader": "^1.3.3",
+    "shortid": "^2.2.8"
+  }
+}
