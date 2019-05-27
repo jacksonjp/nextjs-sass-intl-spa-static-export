@@ -16,6 +16,8 @@ yarn dev
 
 When trying to run `npm start` it will build and export your pages into the `out` folder and serve them on `localhost:5000`.
 
+The out folder can easily be served using a netlify instance to immediately deploy your website or any hosting platform.
+
 ## Features
 
 * SCSS Support using @zeit/next-sass with cssModules enabled
