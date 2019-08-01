@@ -3292,10 +3292,6 @@ is-directory@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/is-directory/-/is-directory-0.3.1.tgz#61339b6f2475fc772fd9c9d83f5c8575dc154ae1"
 
-is-electron@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/is-electron/-/is-electron-2.1.0.tgz#37dd2e9e7167efa8bafce86c0c25762bc4b851fa"
-
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
@@ -3592,10 +3588,6 @@ load-json-file@^2.0.0:
     parse-json "^2.2.0"
     pify "^2.0.0"
     strip-bom "^3.0.0"
-
-load-script@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
 
 loader-runner@^2.3.0:
   version "2.3.0"
@@ -4226,11 +4218,7 @@ object-copy@^0.1.0:
     define-property "^0.2.5"
     kind-of "^3.0.3"
 
-object-keys@^1.0.11, object-keys@^1.0.8:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.0.12.tgz#09c53855377575310cca62f55bb334abff7b3ed2"
-
-object-keys@^1.0.12:
+object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.0.8:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
 
@@ -4797,9 +4785,9 @@ react-error-overlay@5.1.6:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
 
-react-intl-universal@^1.11.2:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/react-intl-universal/-/react-intl-universal-1.12.1.tgz#c684f44375b2aed7a7e097f121b81a06cc6158ee"
+react-intl-universal@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/react-intl-universal/-/react-intl-universal-2.1.3.tgz#5b4013343b2176669a0345772c7a79c25af7f148"
   dependencies:
     console-polyfill "^0.3.0"
     cookie "^0.3.1"
@@ -4807,8 +4795,6 @@ react-intl-universal@^1.11.2:
     intl "^1.2.5"
     intl-messageformat "^2.2.0"
     invariant "^2.2.2"
-    is-electron "^2.1.0"
-    load-script "^1.0.0"
     lodash.merge "^4.6.1"
     object-keys "^1.0.11"
     querystring "^0.2.0"
