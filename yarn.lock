@@ -4750,9 +4750,9 @@ react-error-overlay@5.1.6:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
 
-react-intl-universal@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/react-intl-universal/-/react-intl-universal-2.1.3.tgz#5b4013343b2176669a0345772c7a79c25af7f148"
+react-intl-universal@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-intl-universal/-/react-intl-universal-2.2.1.tgz#e1a9a6d0adae6230c2aeb69c2c4d3c7c6075f0a9"
   dependencies:
     console-polyfill "^0.3.0"
     cookie "^0.3.1"
